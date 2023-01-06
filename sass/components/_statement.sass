@@ -1,13 +1,26 @@
 @use '../utils/_fonts' as font
 @use '../utils/_colors' as color
 @use '../utils/_font-size' as ftsize
+@use '../utils/_main' as utils
 
 .container_statement
-  font-size: ftsize.$font-paragraphe //250px
+  font-size: ftsize.$font-paragraphe //20px
   font-family: font.$font-sans-serif
   display: block
   margin: 4.563rem //73px
   line-height: 1.688rem //27px
   text-align: center
-  font-weight: 600
+  font-weight: 600 //semi-bold
+  @include utils.for-phone-only
+    font-size: ftsize.$font-querie
+    line-height: 18px
+
+  @include utils.flux-phone-only
+    max-width: 1000px
+    margin-left: auto
+    margin-right: auto
+
+  @include utils.marg
+    margin: 2.188rem //35px
+
   

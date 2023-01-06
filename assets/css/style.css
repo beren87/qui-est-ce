@@ -37,8 +37,26 @@
   text-align: center;
   font-weight: 600;
 }
+@media (max-width: 576px) {
+  .container_statement {
+    font-size: 0.875rem;
+    line-height: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .container_statement {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 576px) {
+  .container_statement {
+    margin: 2.188rem;
+  }
+}
 
-.flex {
+.container_categories {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
@@ -46,85 +64,85 @@
 }
 
 .categorie_cinema {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  border-radius: 32px;
   background-color: #087990;
   font-size: 1.25rem;
   color: #F8F9FA;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  width: 250px;
-  height: 100px;
-  border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .categorie_musique {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  border-radius: 32px;
   background-color: #FD7E14;
   font-size: 1.25rem;
   color: #F8F9FA;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  width: 250px;
-  height: 100px;
-  border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .categorie_serieTv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  border-radius: 32px;
   background-color: #20C997;
   font-size: 1.25rem;
   color: #F8F9FA;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  width: 250px;
-  height: 100px;
-  border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .categorie_jeuxVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  border-radius: 32px;
   background-color: #6610F2;
   font-size: 1.25rem;
   color: #F8F9FA;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  width: 250px;
-  height: 100px;
-  border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .categorie_animes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  border-radius: 32px;
   background-color: #D63384;
   font-size: 1.25rem;
   color: #F8F9FA;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  width: 250px;
-  height: 100px;
-  border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .categorie_sports {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  border-radius: 32px;
   background-color: #0DCAF0;
   font-size: 1.25rem;
   color: #F8F9FA;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  width: 250px;
-  height: 100px;
-  border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }/*# sourceMappingURL=style.css.map */

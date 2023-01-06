@@ -1,91 +1,62 @@
 @use '../utils/_fonts' as font
 @use '../utils/_colors' as color
 @use '../utils/_font-size' as ftsize
+@use '../utils/_main' as utils
 
-
-
-.flex
-  display: flex
-  flex-wrap: wrap
-  gap: 32px
-  justify-content: space-evenly
+.container_categories
+  @include utils.flex
 
 .categorie_cinema
+  @include utils.flex-ct
+  @include utils.block
   background-color: color.$pinegreen
   font-size: ftsize.$font-paragraphe //250px
   color: color.$white
   font-family: font.$font-sans-serif
-  font-weight: 700
-  width: 250px
-  height: 100px
-  border-radius: 32px
-  display: flex
-  justify-content: center
-  align-items: center
+  font-weight: 700 //bold
 
 .categorie_musique
+  @include utils.flex-ct
+  @include utils.block
   background-color: color.$orange
   font-size: ftsize.$font-paragraphe //250px
   color: color.$white
   font-family: font.$font-sans-serif
-  font-weight: 700
-  width: 250px
-  height: 100px
-  border-radius: 32px
-  display: flex
-  justify-content: center
-  align-items: center
+  font-weight: 700 //bold
 
 .categorie_serieTv
+  @include utils.flex-ct
+  @include utils.block
   background-color: color.$mint
   font-size: ftsize.$font-paragraphe //250px
   color: color.$white
   font-family: font.$font-sans-serif
-  font-weight: 700
-  width: 250px
-  height: 100px
-  border-radius: 32px
-  display: flex
-  justify-content: center
-  align-items: center
+  font-weight: 700 //bold
 
 .categorie_jeuxVideo
+  @include utils.flex-ct
+  @include utils.block
   background-color: color.$purple
   font-size: ftsize.$font-paragraphe //250px
   color: color.$white
   font-family: font.$font-sans-serif
-  font-weight: 700
-  width: 250px
-  height: 100px
-  border-radius: 32px
-  display: flex
-  justify-content: center
-  align-items: center
+  font-weight: 700 //bold
 
 .categorie_animes
+  @include utils.flex-ct
+  @include utils.block
   background-color: color.$pink
   font-size: ftsize.$font-paragraphe //250px
   color: color.$white
   font-family: font.$font-sans-serif
-  font-weight: 700
-  width: 250px
-  height: 100px
-  border-radius: 32px
-  display: flex
-  justify-content: center
-  align-items: center
+  font-weight: 700 //bold
 
 .categorie_sports
+  @include utils.flex-ct
+  @include utils.block
   background-color: color.$turquoise
   font-size: ftsize.$font-paragraphe //250px
   color: color.$white
   font-family: font.$font-sans-serif
-  font-weight: 700
-  width: 250px
-  height: 100px
-  border-radius: 32px
-  display: flex
-  justify-content: center
-  align-items: center
-  
-  
+  font-weight: 700 //bold
+
