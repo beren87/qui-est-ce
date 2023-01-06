@@ -1,2 +1,15 @@
+@use '../utils/_fonts' as font
+@use '../utils/_colors' as color
+@use '../utils/_font-size' as ftsize
+
 .header
   text-align: center
+  padding: 1.125rem //18px
+  background-color: color.$blue 
+  font-family: font.$font-cursive
+
+  &_navbar
+    color: color.$white
+    font-size: ftsize.$font-navbar //50px
+    //font-family: 'Carter One', cursive
+

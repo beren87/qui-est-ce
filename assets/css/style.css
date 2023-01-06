@@ -11,6 +11,27 @@
   list-style: none;
 }
 
+.flux {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   text-align: center;
+  padding: 1.125rem;
+  background-color: #0D6EFD;
+  font-family: "Carter One", cursive;
+}
+.header_navbar {
+  color: #F8F9FA;
+  font-size: 3.125rem;
+}
+
+.container_statement {
+  font-size: 1.25rem;
+  display: block;
+  margin: 4.563rem;
+  text-align: center;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
