@@ -31,3 +31,24 @@
 @mixin marg
   @media (max-width: 576px)
     @content
+
+// ============= XM PHONE ONLY =================== //    
+
+//media querie pour le passage du flux en mobile
+@mixin flux-phone-xm-only 
+  @media (max-width: 531px) 
+    @content
+
+
+@mixin catg-phone-xm-only
+  @media (max-width: 531px)
+    @content
+    
+@mixin flex-catg-phone-xm-only
+  @media (max-width: 531px)
+    @content
+
+@mixin block-xm-phone-only
+  @media (max-width: 531px)
+    @content
+    

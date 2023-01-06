@@ -5,6 +5,11 @@
 
 .container_categories
   @include utils.flex
+  //flex xm phone
+  @include utils.flex-catg-phone-xm-only
+    display: flex
+    flex-direction: column
+    gap: 0
 
 .categorie_cinema
   @include utils.flex-ct
@@ -14,6 +19,10 @@
   color: color.$white
   font-family: font.$font-sans-serif
   font-weight: 700 //bold
+  //categorie bloc xm phone
+  @include utils.block-xm-phone-only
+    border-radius: 0
+    width: 100%
 
 .categorie_musique
   @include utils.flex-ct
@@ -23,6 +32,10 @@
   color: color.$white
   font-family: font.$font-sans-serif
   font-weight: 700 //bold
+   //categorie bloc xm phone
+  @include utils.block-xm-phone-only
+    border-radius: 0
+    width: 100%
 
 .categorie_serieTv
   @include utils.flex-ct
@@ -32,6 +45,10 @@
   color: color.$white
   font-family: font.$font-sans-serif
   font-weight: 700 //bold
+   //categorie bloc xm phone
+  @include utils.block-xm-phone-only
+    border-radius: 0
+    width: 100%
 
 .categorie_jeuxVideo
   @include utils.flex-ct
@@ -41,6 +58,10 @@
   color: color.$white
   font-family: font.$font-sans-serif
   font-weight: 700 //bold
+   //categorie bloc xm phone
+  @include utils.block-xm-phone-only
+    border-radius: 0
+    width: 100%
 
 .categorie_animes
   @include utils.flex-ct
@@ -50,6 +71,10 @@
   color: color.$white
   font-family: font.$font-sans-serif
   font-weight: 700 //bold
+   //categorie bloc xm phone
+  @include utils.block-xm-phone-only
+    border-radius: 0
+    width: 100%
 
 .categorie_sports
   @include utils.flex-ct
@@ -59,4 +84,8 @@
   color: color.$white
   font-family: font.$font-sans-serif
   font-weight: 700 //bold
+   //categorie bloc xm phone
+  @include utils.block-xm-phone-only
+    border-radius: 0
+    width: 100%
 
