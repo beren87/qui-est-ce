@@ -1,0 +1,33 @@
+//mixin pour l'ensemble des catégories  
+@mixin flex($gap: 32px, $evenly: space-evenly, $wrap: wrap)
+  display: flex
+  flex-wrap: $wrap
+  gap: $gap
+  justify-content: $evenly
+
+//mixin pour centrer le texte de la catégorie
+@mixin flex-ct($center: center, $align: center)
+  display: flex
+  justify-content: $center
+  align-items: $align
+
+//mixin pour la taille des blocks catégorie
+@mixin block($width: 250px, $height: 100px, $radius: 32px)
+  width: $width
+  height: $height
+  border-radius: $radius
+
+//media querie pour le passage du flux en mobile
+@mixin flux-phone-only 
+  @media (max-width: 576px) 
+    @content
+
+//media querie pour la taille du texte en mobile
+@mixin for-phone-only 
+  @media (max-width: 576px) 
+    @content
+
+//réduit le margin entre _statement et _header
+@mixin marg
+  @media (max-width: 576px)
+    @content
