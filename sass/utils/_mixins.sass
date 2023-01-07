@@ -17,7 +17,17 @@
   height: $height
   border-radius: $radius
 
+@mixin footer-fixed-bottom($fwidth: 100%, $fheight: 50px, $pos: fixed, $left: 0, $bottom: 0)
+  position: $pos
+  left: $left
+  bottom: $bottom
+  width: $fwidth
+  height: $fheight
 
+@mixin footer-shrink-bottom-phone
+  @media (max-width: 576px)
+    @content
+    
 
 
 

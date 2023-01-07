@@ -218,4 +218,18 @@
   .categorie-text-size {
     font-size: 2.5rem;
   }
+}
+
+.footer-bg {
+  background-color: #0D6EFD;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+@media (max-width: 576px) {
+  .footer-bg {
+    height: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
