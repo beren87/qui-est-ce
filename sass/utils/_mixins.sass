@@ -70,4 +70,10 @@
 @mixin font-size-xm-hone-only
   @media (max-width: 531px)
     @content
-    
+
+
+//background image
+@mixin backgroundShorthand($imgpath,$position:0 0,$repeat: no-repeat) 
+    background: transparent url(#{$imgpath}) $repeat $position 
+  
+  
