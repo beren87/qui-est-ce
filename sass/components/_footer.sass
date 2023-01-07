@@ -1,0 +1,10 @@
+@use '../utils/_fonts' as font
+@use '../utils/_colors' as color
+@use '../utils/_font-size' as ftsize
+@use '../utils/_main' as utils
+
+.footer-bg
+  background-color: color.$blue
+  @include utils.footer-fixed-bottom
+  @include utils.footer-shrink-bottom-phone
+    height: 20px
