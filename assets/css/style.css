@@ -89,6 +89,10 @@
     width: 100%;
   }
 }
+.categorie_cinema:hover {
+  background-color: #075868;
+  transition: 0.5s;
+}
 
 .categorie_musique {
   display: flex;
@@ -108,6 +112,10 @@
     border-radius: 0;
     width: 100%;
   }
+}
+.categorie_musique:hover {
+  background-color: #ce650f;
+  transition: 0.5s;
 }
 
 .categorie_serieTv {
@@ -129,6 +137,10 @@
     width: 100%;
   }
 }
+.categorie_serieTv:hover {
+  background-color: #1aa77d;
+  transition: 0.5s;
+}
 
 .categorie_jeuxVideo {
   display: flex;
@@ -148,6 +160,10 @@
     border-radius: 0;
     width: 100%;
   }
+}
+.categorie_jeuxVideo:hover {
+  background-color: #4f0dbb;
+  transition: 0.5s;
 }
 
 .categorie_animes {
@@ -169,6 +185,10 @@
     width: 100%;
   }
 }
+.categorie_animes:hover {
+  background-color: #a72968;
+  transition: 0.5s;
+}
 
 .categorie_sports {
   display: flex;
@@ -188,6 +208,10 @@
     border-radius: 0;
     width: 100%;
   }
+}
+.categorie_sports:hover {
+  background-color: #0d9db9;
+  transition: 0.5s;
 }
 
 @media (max-width: 531px) {
