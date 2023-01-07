@@ -19,7 +19,7 @@
 
 .header {
   text-align: center;
-  padding: 1.125rem;
+  padding: 0.625rem;
   background-color: #0D6EFD;
 }
 .header_navbar {
@@ -187,5 +187,11 @@
   .categorie_sports {
     border-radius: 0;
     width: 100%;
+  }
+}
+
+@media (max-width: 531px) {
+  .categorie-text-size {
+    font-size: 2.5rem;
   }
 }/*# sourceMappingURL=style.css.map */

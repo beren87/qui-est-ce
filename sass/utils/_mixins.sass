@@ -17,6 +17,10 @@
   height: $height
   border-radius: $radius
 
+
+
+
+
 //media querie pour le passage du flux en mobile
 @mixin flux-phone-only 
   @media (max-width: 576px) 
@@ -49,6 +53,10 @@
     @content
 
 @mixin block-xm-phone-only
+  @media (max-width: 531px)
+    @content
+    
+@mixin font-size-xm-hone-only
   @media (max-width: 531px)
     @content
     
