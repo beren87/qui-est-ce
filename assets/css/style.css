@@ -310,11 +310,10 @@
 
 .character-photo_size {
   width: 539px;
-  height: 238px;
+  height: 270px;
   border-radius: 32px;
   background-color: #000000;
   margin-top: 14px;
-  background: transparent url(../img/sports-pic-001.png) no-repeat top;
 }
 
 .container-quest_flex {
@@ -326,6 +325,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 19px;
 }
 
 .container-quest_textq {
@@ -333,4 +333,113 @@
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+.container-ans_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container-circle_propa {
+  background-color: #0D408A;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-right: 490px;
+}
+
+.container-circle_propb {
+  background-color: #0D408A;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 55px;
+}
+
+.circle_letter {
+  color: #F8F9FA;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.625rem;
+}
+
+.container-ans_a {
+  background-color: #0D6EFD;
+  width: 260px;
+  height: 54px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+}
+
+.container-ans_b {
+  background-color: #0D6EFD;
+  width: 260px;
+  height: 54px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-ans_text {
+  color: #F8F9FA;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.container-circle_propc {
+  background-color: #0D408A;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-right: 490px;
+}
+
+.container-circle_propd {
+  background-color: #0D408A;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 55px;
+}
+
+.container-ans_c {
+  background-color: #0D6EFD;
+  width: 260px;
+  height: 54px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+}
+
+.container-ans_d {
+  background-color: #0D6EFD;
+  width: 260px;
+  height: 54px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
